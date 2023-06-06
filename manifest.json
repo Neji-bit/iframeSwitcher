@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Iframe Switcher",
+  "description": "This extension switch status of iframes show/hidden.",
+  "version": "0.1",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "iframe_switcher.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": [
+      "iframe_switcher.js"
+    ]
+  }]
+}
