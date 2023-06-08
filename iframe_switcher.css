@@ -1,0 +1,9 @@
+/* Doodle対策 */
+[src*='/logos/doodles/'] {
+  visibility: hidden;
+}
+
+/* iframeは、デフォルトで表示しない */
+iframe:not(.iframeswitcher--arrow) {
+  visibility: hidden;
+}

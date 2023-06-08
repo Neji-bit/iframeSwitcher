@@ -1,5 +1,5 @@
 //  このhiddenのtrue/falseでiframeを非表示にするかどうかを決める。
-let msg = {hidden: false}
+let msg = {hidden: true}
 
 //  フラグを入れ替えしてブラウザJSをコール。
 switchIframe = () => {
@@ -17,7 +17,5 @@ switchIframe = () => {
 //  ボタンをクリックしたら、iframeON/OFFを切り替え。
 switch_button.addEventListener("click", switchIframe)
 
-switchIframe()
-
-let version = "0.1"
+let version = "0.2"
 iframe_version.innerHTML = version
